@@ -1,0 +1,985 @@
+{
+  "config": "{\"version\":\"5.65\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.64\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true,\"filterPaneHiddenInEditMode\":false},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "filters": "[{\"name\":\"8ab786d3def08bd36b7b\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Crop\"}},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isLockedInViewMode\":true},{\"name\":\"438aba55e715b190cf0e\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Crop\"}},\"type\":\"Categorical\",\"howCreated\":1,\"isLockedInViewMode\":true}]",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "4bab005d26e350ac1609",
+      "config": "{}",
+      "name": "0578a50cc03c2c096cb1"
+    },
+    {
+      "boundSection": "48ed6b56851a002b71d6",
+      "config": "{}",
+      "name": "38289c3c8e88ad5d2c92"
+    },
+    {
+      "boundSection": "a96c997bf898b6aa2102",
+      "config": "{}",
+      "name": "4a81ac764eb4b3957c4b"
+    }
+  ],
+  "publicCustomVisuals": [
+    "HeatMap67B54F74B5374B9EA95AC568DC37B14C"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "2178648-20048956157125996336.png",
+            "path": "2178648-20048956157125996336.png",
+            "type": 100
+          },
+          {
+            "name": "2178648-2009288381997903287.png",
+            "path": "2178648-2009288381997903287.png",
+            "type": 100
+          },
+          {
+            "name": "average_rainfall28900413756745913.png",
+            "path": "average_rainfall28900413756745913.png",
+            "type": 100
+          },
+          {
+            "name": "average_rainfall6877055805695903.png",
+            "path": "average_rainfall6877055805695903.png",
+            "type": 100
+          },
+          {
+            "name": "fertilizer_usage424316701534988.png",
+            "path": "fertilizer_usage424316701534988.png",
+            "type": 100
+          },
+          {
+            "name": "fertilizer_usage5873990170103875.png",
+            "path": "fertilizer_usage5873990170103875.png",
+            "type": 100
+          },
+          {
+            "name": "pngtree-autumn-mature-crop-pad6640792942494805.jpg",
+            "path": "pngtree-autumn-mature-crop-pad6640792942494805.jpg",
+            "type": 100
+          },
+          {
+            "name": "pngtree-growth-arrow-png-image39389680589500176.png",
+            "path": "pngtree-growth-arrow-png-image39389680589500176.png",
+            "type": 100
+          },
+          {
+            "name": "pngtree-growth-arrow-png-image6583179994650468.png",
+            "path": "pngtree-growth-arrow-png-image6583179994650468.png",
+            "type": 100
+          },
+          {
+            "name": "temp10297844402175471.png",
+            "path": "temp10297844402175471.png",
+            "type": 100
+          },
+          {
+            "name": "temp5857714899896066.png",
+            "path": "temp5857714899896066.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Crop Recommendation",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 900.00,
+      "name": "3f5aca7709cee89e60b5",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"026cdb5341d406a68175\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.9912627418348245,\"y\":0,\"z\":0,\"width\":1689.5360931974203,\"height\":75.88932806324111,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"43L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crop Yield Analysis | Overview'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 75.89,
+          "width": 1689.54,
+          "x": 5.99,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"05b98074e50004a3be44\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1625.629290617849,\"y\":99.8543790305804,\"z\":10000,\"width\":53.92136467651342,\"height\":39.94175161223216,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"average_rainfall6877055805695903.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.94,
+          "width": 53.92,
+          "x": 1625.63,
+          "y": 99.85,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"07151034e08b9ae015c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1353.3333333333333,\"y\":11.11111111111111,\"z\":5000,\"width\":136.66666666666666,\"height\":55.55555555555556,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Rainfall_Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_Category\"},\"Name\":\"Yields_df.Rainfall_Category\",\"NativeReferenceName\":\"Rainfall_Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Rainfall Category'\"}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 136.67,
+          "x": 1353.33,
+          "y": 11.11,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"3919f390200636e536d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.9912627418348245,\"y\":91.86602870813397,\"z\":2000,\"width\":1689.5360931974203,\"height\":91.86602870813397,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Yields_df.Total Yield\"},{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Pesticide Efficiency\"},{\"queryRef\":\"Yields_df.Average Temp\"},{\"queryRef\":\"Yields_df.Average Rainfall\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticide Efficiency\"},\"Name\":\"Yields_df.Pesticide Efficiency\",\"NativeReferenceName\":\"Pesticide Efficiency\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Temp\"},\"Name\":\"Yields_df.Average Temp\",\"NativeReferenceName\":\"Average Temperature\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Rainfall\"},\"Name\":\"Yields_df.Average Rainfall\",\"NativeReferenceName\":\"Average Rainfall\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"columnProperties\":{\"Yields_df.Average Temp\":{\"displayName\":\"Average Temperature\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}},{\"properties\":{\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'belowValue'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"glowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"27L\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 91.87,
+          "width": 1689.54,
+          "x": 5.99,
+          "y": 91.87,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"59799e26891650e505b6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":942.625338048679,\"y\":91.86602870813397,\"z\":11000,\"width\":71.89515290201788,\"height\":39.94175161223216,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fertilizer_usage5873990170103875.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.94,
+          "width": 71.90,
+          "x": 942.63,
+          "y": 91.87,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"60d113d4ad197bd7937b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1125.4225806451614,\"y\":200.7709677419355,\"z\":13000,\"width\":571,\"height\":327.86451612903227,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"HeatMap67B54F74B5374B9EA95AC568DC37B14C\",\"projections\":{\"yAxis\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}],\"datalabel\":[{\"queryRef\":\"Min(Yields_df.Temperature Category)\"}],\"xAxis\":[{\"queryRef\":\"Yields_df.Temperature Category\",\"active\":true}],\"Value\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"}},\"Function\":3},\"Name\":\"Min(Yields_df.Temperature Category)\",\"NativeReferenceName\":\"First Temperature Category\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"},\"Name\":\"Yields_df.Temperature Category\",\"NativeReferenceName\":\"Temperature Category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Sum of Yield_Ton/Hectare\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 327.86,
+          "width": 571.00,
+          "x": 1125.42,
+          "y": 200.77,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"7f8731c404dc9d4233e7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":822.2222222222222,\"y\":11.11111111111111,\"z\":12000,\"width\":120,\"height\":55.55555555555556,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Temperature Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"},\"Name\":\"Yields_df.Temperature Category\",\"NativeReferenceName\":\"Temperature Category\"}]},\"columnProperties\":{\"Yields_df.Temperature Category\":{\"displayName\":\"Temp_Category.\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 120.00,
+          "x": 822.22,
+          "y": 11.11,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"8cd1db6b880ce6bc6070\",\"layouts\":[{\"id\":0,\"position\":{\"x\":22.776344086021506,\"y\":4.880645161290323,\"z\":1000,\"width\":69.95591397849462,\"height\":65.0752688172043,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-autumn-mature-crop-pad6640792942494805.jpg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.08,
+          "width": 69.96,
+          "x": 22.78,
+          "y": 4.88,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9be2bd10d44268422a95\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1224.4444444444443,\"y\":10,\"z\":4000,\"width\":120,\"height\":55.55555555555556,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 120.00,
+          "x": 1224.44,
+          "y": 10.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"d922574e7e7a546d687d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":605.1175369253173,\"y\":99.8543790305804,\"z\":8000,\"width\":65.90389016018307,\"height\":37.944664031620555,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"2178648-20048956157125996336.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 37.94,
+          "width": 65.90,
+          "x": 605.12,
+          "y": 99.85,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"dfce39ac61e03deaeb0b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":955.5555555555555,\"y\":11.11111111111111,\"z\":6000,\"width\":142.22222222222223,\"height\":55.55555555555556,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Yield Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield Category\"},\"Name\":\"Yields_df.Yield Category\",\"NativeReferenceName\":\"Yield Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield Category\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'High'\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 142.22,
+          "x": 955.56,
+          "y": 11.11,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"e665147d50644ecac149\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1300.1040149781568,\"y\":93.86311628874557,\"z\":9000,\"width\":43.93592677345538,\"height\":45.933014354066984,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"temp5857714899896066.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 45.93,
+          "width": 43.94,
+          "x": 1300.10,
+          "y": 93.86,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"ed6fd8d51d003dbb6c9c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1105.5555555555554,\"y\":11.11111111111111,\"z\":3000,\"width\":102.22222222222221,\"height\":55.55555555555556,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Year\"},\"Name\":\"Yields_df.Year\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 102.22,
+          "x": 1105.56,
+          "y": 11.11,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"f0f112959d70736708e3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":247.6388599958394,\"y\":91.86602870813397,\"z\":7000,\"width\":93.86311628874557,\"height\":45.933014354066984,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-growth-arrow-png-image39389680589500176.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 45.93,
+          "width": 93.86,
+          "x": 247.64,
+          "y": 91.87,
+          "z": 7000.00
+        }
+      ],
+      "width": 1713.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Environmental Impact Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 900.00,
+      "name": "48ed6b56851a002b71d6",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0efb31c63613307a0544\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1625.629290617849,\"y\":99.8543790305804,\"z\":11000,\"width\":53.92136467651342,\"height\":39.94175161223216,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"average_rainfall6877055805695903.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.94,
+          "width": 53.92,
+          "x": 1625.63,
+          "y": 99.85,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"11ff1985eeb8e9aed3d3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":948.6166007905139,\"y\":9.98543790305804,\"z\":7000,\"width\":141.79321822342416,\"height\":55.918452257125026,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Yield Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield Category\"},\"Name\":\"Yields_df.Yield Category\",\"NativeReferenceName\":\"Yield Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.92,
+          "width": 141.79,
+          "x": 948.62,
+          "y": 9.99,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"1860ba00ce0c5c9c874c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":551.7614555256065,\"y\":212.39353099730457,\"z\":17000,\"width\":539.0640161725067,\"height\":307.04716981132077,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Temperature Category\",\"active\":true}],\"Series\":[{\"queryRef\":\"Yields_df.Crop\"}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"},\"Name\":\"Yields_df.Temperature Category\",\"NativeReferenceName\":\"Temperature Category\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Sum of Yield_Ton/Hectare\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"enableValueDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Yield'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crop Yield Efficiency (Ton/Ha) by Temperature Range and Crop Variety.'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 307.05,
+          "width": 539.06,
+          "x": 551.76,
+          "y": 212.39,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"217b90bd9926a62e36e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1300.1040149781568,\"y\":93.86311628874557,\"z\":10000,\"width\":43.93592677345538,\"height\":45.933014354066984,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"temp5857714899896066.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 45.93,
+          "width": 43.94,
+          "x": 1300.10,
+          "y": 93.86,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"45276e32623db9648422\",\"layouts\":[{\"id\":0,\"position\":{\"x\":247.6388599958394,\"y\":91.86602870813397,\"z\":8000,\"width\":93.86311628874557,\"height\":45.933014354066984,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-growth-arrow-png-image39389680589500176.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 45.93,
+          "width": 93.86,
+          "x": 247.64,
+          "y": 91.87,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"46f8cd48b41c0b553071\",\"layouts\":[{\"id\":0,\"position\":{\"x\":942.625338048679,\"y\":91.86602870813397,\"z\":12000,\"width\":71.89515290201788,\"height\":39.94175161223216,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fertilizer_usage5873990170103875.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.94,
+          "width": 71.90,
+          "x": 942.63,
+          "y": 91.87,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"5922a66044abe0b4a030\",\"layouts\":[{\"id\":0,\"position\":{\"x\":822.2222222222222,\"y\":11.11111111111111,\"z\":13000,\"width\":120,\"height\":55.55555555555556,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Temperature Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"},\"Name\":\"Yields_df.Temperature Category\",\"NativeReferenceName\":\"Temperature Category\"}]},\"columnProperties\":{\"Yields_df.Temperature Category\":{\"displayName\":\"Temp_Category.\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 120.00,
+          "x": 822.22,
+          "y": 11.11,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"719fd8d70dd8399464e2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.086253369272235,\"y\":212.39353099730457,\"z\":15000,\"width\":498.66307277628033,\"height\":302.4299191374663,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"Yields_df.Total Yield\"}],\"Y2\":[{\"queryRef\":\"Sum(Yields_df.Average_Temp)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Year\"},\"Name\":\"Yields_df.Year\",\"NativeReferenceName\":\"Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average_Temp\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Average_Temp)\",\"NativeReferenceName\":\"Sum of Average_Temp\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Correlation Between Temperature  and Yield  Throughout The Years'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 302.43,
+          "width": 498.66,
+          "x": 23.09,
+          "y": 212.39,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"77ea4e9bbe2093189d78\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800.6024096385541,\"y\":542.1686746987951,\"z\":3000,\"width\":896.3855421686746,\"height\":357.8313253012048,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Size\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}],\"Category\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}],\"Series\":[{\"queryRef\":\"Yields_df.Rainfall_mm\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Sum of Yield_Ton/Hectare\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_mm\"},\"Name\":\"Yields_df.Rainfall_mm\",\"NativeReferenceName\":\"Rainfall_mm\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"bubbles\":[{\"properties\":{\"bubbleSize\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}}}}],\"mapStyles\":[{\"properties\":{\"mapTheme\":{\"expr\":{\"Literal\":{\"Value\":\"'road'\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Yield By Area & Rainfall'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 357.83,
+          "width": 896.39,
+          "x": 800.60,
+          "y": 542.17,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"86b65daad9513b593a66\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.9912627418348245,\"y\":0,\"z\":0,\"width\":1689.5360931974203,\"height\":75.88932806324111,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"43L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crop Yield Analysis | Overview'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 75.89,
+          "width": 1689.54,
+          "x": 5.99,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"9ab250d505a213be8586\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.9912627418348245,\"y\":91.86602870813397,\"z\":2000,\"width\":1689.5360931974203,\"height\":91.86602870813397,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Yields_df.Total Yield\"},{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Pesticide Efficiency\"},{\"queryRef\":\"Yields_df.Average Temp\"},{\"queryRef\":\"Yields_df.Average Rainfall\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticide Efficiency\"},\"Name\":\"Yields_df.Pesticide Efficiency\",\"NativeReferenceName\":\"Pesticide Efficiency\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Temp\"},\"Name\":\"Yields_df.Average Temp\",\"NativeReferenceName\":\"Average Temperature\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Rainfall\"},\"Name\":\"Yields_df.Average Rainfall\",\"NativeReferenceName\":\"Average Rainfall\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"columnProperties\":{\"Yields_df.Average Temp\":{\"displayName\":\"Average Temperature\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}},{\"properties\":{\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'belowValue'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"glowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"27L\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 91.87,
+          "width": 1689.54,
+          "x": 5.99,
+          "y": 91.87,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a71c12ed2000c5462706\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1105.5555555555554,\"y\":11.11111111111111,\"z\":4000,\"width\":102.22222222222221,\"height\":55.55555555555556,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Year\"},\"Name\":\"Yields_df.Year\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 102.22,
+          "x": 1105.56,
+          "y": 11.11,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"ab72321f60c780373917\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1224.4444444444443,\"y\":10,\"z\":5000,\"width\":120,\"height\":55.55555555555556,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 120.00,
+          "x": 1224.44,
+          "y": 10.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"b0634ad05ae3a695012e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":605.1175369253173,\"y\":99.8543790305804,\"z\":9000,\"width\":65.90389016018307,\"height\":37.944664031620555,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"2178648-20048956157125996336.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 37.94,
+          "width": 65.90,
+          "x": 605.12,
+          "y": 99.85,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"c942cce70c0a901a68c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1120.6169202048022,\"y\":200.6167723332286,\"z\":18000,\"width\":575.506700430676,\"height\":328.2819910907377,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Key Insight.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"textDecoration\":\"underline\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C7C599'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C7C599'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 328.28,
+          "width": 575.51,
+          "x": 1120.62,
+          "y": 200.62,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"d37a62f32891d7be3881\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.771563342318059,\"y\":200.85040431266845,\"z\":14000,\"width\":1100.059973045822,\"height\":327.82479784366575,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"28L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 327.82,
+          "width": 1100.06,
+          "x": 5.77,
+          "y": 200.85,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"da0e8fe98301d5849820\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.421686746987952,\"y\":542.1686746987951,\"z\":16000,\"width\":739.156626506024,\"height\":345.18072289156623,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Agric Yield2.Crop\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Rainfall_mm)\"}],\"Y2\":[{\"queryRef\":\"Yields_df.Total Yield\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0},{\"Name\":\"a\",\"Entity\":\"Agric Yield2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Crop\"},\"Name\":\"Agric Yield2.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_mm\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Rainfall_mm)\",\"NativeReferenceName\":\"Sum of Rainfall_mm\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_mm\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Average_Rainfall\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#A4BFCE'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#579EE5'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#109E2F'\"}}}}}},\"selector\":{\"metadata\":\"Yields_df.Total Yield\"}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crop Yield Relative to Rainfall'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 345.18,
+          "width": 739.16,
+          "x": 5.42,
+          "y": 542.17,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"ec9d89b507e42ec6e945\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1364.3975741239892,\"y\":11.543126684636118,\"z\":6000,\"width\":137.3632075471698,\"height\":55.40700808625337,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Rainfall_Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_Category\"},\"Name\":\"Yields_df.Rainfall_Category\",\"NativeReferenceName\":\"Rainfall_Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_Category\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Moderate'\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Rainfall Category'\"}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.41,
+          "width": 137.36,
+          "x": 1364.40,
+          "y": 11.54,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"f876788006029a70c906\",\"layouts\":[{\"id\":0,\"position\":{\"x\":22.776344086021506,\"y\":4.880645161290323,\"z\":1000,\"width\":69.95591397849462,\"height\":65.0752688172043,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-autumn-mature-crop-pad6640792942494805.jpg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.08,
+          "width": 69.96,
+          "x": 22.78,
+          "y": 4.88,
+          "z": 1000.00
+        }
+      ],
+      "width": 1713.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Input Usage Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 900.00,
+      "name": "4bab005d26e350ac1609",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"092e0f9c3c0bae80d47e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":22.776344086021506,\"y\":4.880645161290323,\"z\":1000,\"width\":69.95591397849462,\"height\":65.0752688172043,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-autumn-mature-crop-pad6640792942494805.jpg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.08,
+          "width": 69.96,
+          "x": 22.78,
+          "y": 4.88,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"1316acb02122a0b34a38\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.19756838905775,\"y\":194.29863221884497,\"z\":13000,\"width\":1492.30547112462,\"height\":348.35790273556233,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 348.36,
+          "width": 1492.31,
+          "x": 9.20,
+          "y": 194.30,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"1f089b60754473958055\",\"layouts\":[{\"id\":0,\"position\":{\"x\":540.3571428571429,\"y\":551.854103343465,\"z\":17000,\"width\":544.9559270516718,\"height\":348.35790273556233,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Pesticides_Tonnes)\"}],\"Y2\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Pesticides_Tonnes)\",\"NativeReferenceName\":\"Pesticides Used\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Yield\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Yields_df.Yield_Ton/Hectare)\":{\"displayName\":\"Yield\"},\"Sum(Yields_df.Pesticides_Tonnes)\":{\"displayName\":\"Pesticides Used\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Pesticides_Tonnes'\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"secShowAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"secShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DFDB7D'\"}}}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#109E2F'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}}],\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Pesticides Used By Area - Bottom Producing Areas'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Area\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 348.36,
+          "width": 544.96,
+          "x": 540.36,
+          "y": 551.85,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"2c53754b897381e52a85\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1150,\"y\":78.88888888888889,\"z\":7000,\"width\":48.888888888888886,\"height\":81.11111111111111,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"temp10297844402175471.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 81.11,
+          "width": 48.89,
+          "x": 1150.00,
+          "y": 78.89,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"2f77a3806751b45c9b40\",\"layouts\":[{\"id\":0,\"position\":{\"x\":6.666666666666666,\"y\":93.33333333333333,\"z\":2000,\"width\":1495.5555555555554,\"height\":91.11111111111111,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Yields_df.Total Yield\"},{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Pesticide Efficiency\"},{\"queryRef\":\"Yields_df.Average Temp\"},{\"queryRef\":\"Yields_df.Average Rainfall\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticide Efficiency\"},\"Name\":\"Yields_df.Pesticide Efficiency\",\"NativeReferenceName\":\"Pesticide Efficiency\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Temp\"},\"Name\":\"Yields_df.Average Temp\",\"NativeReferenceName\":\"Average Temperature\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Rainfall\"},\"Name\":\"Yields_df.Average Rainfall\",\"NativeReferenceName\":\"Average Rainfall\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"columnProperties\":{\"Yields_df.Average Temp\":{\"displayName\":\"Average Temperature\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}},{\"properties\":{\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'belowValue'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"glowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"27L\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 91.11,
+          "width": 1495.56,
+          "x": 6.67,
+          "y": 93.33,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"33d23a9d094821701e09\",\"layouts\":[{\"id\":0,\"position\":{\"x\":253.33333333333331,\"y\":97.77777777777777,\"z\":11000,\"width\":56.666666666666664,\"height\":38.888888888888886,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-growth-arrow-png-image6583179994650468.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 38.89,
+          "width": 56.67,
+          "x": 253.33,
+          "y": 97.78,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"3f1d450470d497a80087\",\"layouts\":[{\"id\":0,\"position\":{\"x\":756.6666666666666,\"y\":11.11111111111111,\"z\":12000,\"width\":150,\"height\":55.55555555555556,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Temperature Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"},\"Name\":\"Yields_df.Temperature Category\",\"NativeReferenceName\":\"Temperature Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 150.00,
+          "x": 756.67,
+          "y": 11.11,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"59b45f5130917e06610c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":6.50752688172043,\"y\":0,\"z\":0,\"width\":1495.1043010752687,\"height\":76.46344086021506,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"43L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crop Yield Analysis | Overview'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 76.46,
+          "width": 1495.10,
+          "x": 6.51,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"62e51f5ee2e60ba59202\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1348.888888888889,\"y\":11.11111111111111,\"z\":5000,\"width\":138.88888888888889,\"height\":55.55555555555556,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Rainfall_Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_Category\"},\"Name\":\"Yields_df.Rainfall_Category\",\"NativeReferenceName\":\"Rainfall_Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Rainfall Category'\"}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 138.89,
+          "x": 1348.89,
+          "y": 11.11,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"63b5b4ba10a0aaa414c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":840,\"y\":97.77777777777777,\"z\":9000,\"width\":38.888888888888886,\"height\":41.11111111111111,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fertilizer_usage424316701534988.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 41.11,
+          "width": 38.89,
+          "x": 840.00,
+          "y": 97.78,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"6a283770493c7cb5a9dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":27.77777777777778,\"y\":202.22222222222223,\"z\":14000,\"width\":726.6666666666666,\"height\":332.22222222222223,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"Series\":[{\"queryRef\":\"Yields_df.Crop\"}],\"Size\":[{\"queryRef\":\"Yields_df.Total Yield\"}],\"Y\":[{\"queryRef\":\"Yields_df.Total Yield\"}],\"X\":[{\"queryRef\":\"Sum(Yields_df.Pesticides_Tonnes)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Pesticides_Tonnes)\",\"NativeReferenceName\":\"Sum of Pesticides_Tonnes\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Pesticides Used & Total Yield'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 332.22,
+          "width": 726.67,
+          "x": 27.78,
+          "y": 202.22,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"7f9dc3240ca30a3415b4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":917.7777777777777,\"y\":10,\"z\":6000,\"width\":150,\"height\":55.55555555555556,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Yield Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield Category\"},\"Name\":\"Yields_df.Yield Category\",\"NativeReferenceName\":\"Yield Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 150.00,
+          "x": 917.78,
+          "y": 10.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"840f96cbd8c496e2830d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.19756838905775,\"y\":551.854103343465,\"z\":16000,\"width\":521.9620060790273,\"height\":348.35790273556233,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Pesticides_Tonnes)\"}],\"Y2\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Pesticides_Tonnes)\",\"NativeReferenceName\":\"Pesticides Used\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Yield\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Yields_df.Yield_Ton/Hectare)\":{\"displayName\":\"Yield\"},\"Sum(Yields_df.Pesticides_Tonnes)\":{\"displayName\":\"Pesticides Used\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Pesticides_Tonnes'\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"secShowAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"secShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8A439B'\"}}}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#109E2F'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}}],\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Pesticides Used By Area - Top Producing Areas'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Area\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 348.36,
+          "width": 521.96,
+          "x": 9.20,
+          "y": 551.85,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"86480aad0c024c0ad808\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1096,\"y\":552,\"width\":405,\"height\":348,\"z\":18000,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C7C599'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 348.00,
+          "width": 405.00,
+          "x": 1096.00,
+          "y": 552.00,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"8bf40d3f7e0a1dcbe999\",\"layouts\":[{\"id\":0,\"position\":{\"x\":561.1111111111111,\"y\":102.22222222222221,\"z\":10000,\"width\":35.55555555555556,\"height\":41.11111111111111,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"2178648-2009288381997903287.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 41.11,
+          "width": 35.56,
+          "x": 561.11,
+          "y": 102.22,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"accd47fcab0a1b029a96\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1451.111111111111,\"y\":102.22222222222221,\"z\":8000,\"width\":36.666666666666664,\"height\":35.55555555555556,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"average_rainfall28900413756745913.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 35.56,
+          "width": 36.67,
+          "x": 1451.11,
+          "y": 102.22,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"c98e9253080a74c99c68\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1095.5555555555554,\"y\":10,\"z\":3000,\"width\":110,\"height\":55.55555555555556,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Year\"},\"Name\":\"Yields_df.Year\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 110.00,
+          "x": 1095.56,
+          "y": 10.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"c9cd21d0609e23c38d44\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1225.5555555555554,\"y\":11.11111111111111,\"z\":4000,\"width\":113.33333333333333,\"height\":55.55555555555556,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"}]},\"queryOptions\":{\"keepProjectionOrder\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 113.33,
+          "x": 1225.56,
+          "y": 11.11,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"f769e4a10330d4698494\",\"layouts\":[{\"id\":0,\"position\":{\"x\":870,\"y\":202.22222222222223,\"z\":15000,\"width\":607.7777777777777,\"height\":327.77777777777777,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Pesticides_Tonnes)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Pesticides_Tonnes)\",\"NativeReferenceName\":\"Sum of Pesticides_Tonnes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticides_Tonnes\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent of total'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"slices\":[{\"properties\":{\"startAngle\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Percentage of Pesticides Used Per Crop'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 327.78,
+          "width": 607.78,
+          "x": 870.00,
+          "y": 202.22,
+          "z": 15000.00
+        }
+      ],
+      "width": 1513.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Regional Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 900.00,
+      "name": "a96c997bf898b6aa2102",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0643bf0b0a785153160d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":275.5980861244019,\"y\":103.84855419180361,\"z\":11000,\"width\":55.918452257125026,\"height\":39.94175161223216,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-growth-arrow-png-image6583179994650468.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.94,
+          "width": 55.92,
+          "x": 275.60,
+          "y": 103.85,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"0b3c766c5686775f317d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1225.5555555555554,\"y\":11.11111111111111,\"z\":4000,\"width\":113.33333333333333,\"height\":55.55555555555556,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"}]},\"queryOptions\":{\"keepProjectionOrder\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 113.33,
+          "x": 1225.56,
+          "y": 11.11,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"1cd9dcbbd5edd6be2dc3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":756.6666666666666,\"y\":11.11111111111111,\"z\":12000,\"width\":150,\"height\":55.55555555555556,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Temperature Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"},\"Name\":\"Yields_df.Temperature Category\",\"NativeReferenceName\":\"Temperature Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 150.00,
+          "x": 756.67,
+          "y": 11.11,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"21db2bdb16b601a7de06\",\"layouts\":[{\"id\":0,\"position\":{\"x\":275.5980861244019,\"y\":199.7087580611608,\"z\":13000,\"width\":722.9457041814021,\"height\":297.5660495111296,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}],\"Size\":[{\"queryRef\":\"Yields_df.Total Yield\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"mapStyles\":[{\"properties\":{\"mapTheme\":{\"expr\":{\"Literal\":{\"Value\":\"'road'\"}}}}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}}}}],\"title\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 297.57,
+          "width": 722.95,
+          "x": 275.60,
+          "y": 199.71,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"23e00e7e278977a441ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":952.6107759517371,\"y\":99.8543790305804,\"z\":9000,\"width\":39.94175161223216,\"height\":41.93883919284377,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fertilizer_usage424316701534988.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 41.94,
+          "width": 39.94,
+          "x": 952.61,
+          "y": 99.85,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"328b428c2156dfe9d0a3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":917.7777777777777,\"y\":10,\"z\":6000,\"width\":150,\"height\":55.55555555555556,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Yield Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield Category\"},\"Name\":\"Yields_df.Yield Category\",\"NativeReferenceName\":\"Yield Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield Category\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'High'\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 150.00,
+          "x": 917.78,
+          "y": 10.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"3cd4f252a00872918c40\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.9912627418348245,\"y\":0,\"z\":0,\"width\":1673.5593925525275,\"height\":75.88932806324111,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"43L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crop Yield Analysis | Overview'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 75.89,
+          "width": 1673.56,
+          "x": 5.99,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"456e33146d1a2b325678\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1008.529228208862,\"y\":199.7087580611608,\"z\":17000,\"width\":339.5048887039734,\"height\":317.5369253172457,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Total Yield\"}],\"Rows\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"subTotals\":[{\"properties\":{\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnHeaders\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}}}}],\"rowHeaders\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"steppedLayoutIndentation\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"values\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"grid\":[{\"properties\":{\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"rowPadding\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}],\"columnFormatting\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"Yields_df.Average Yield\"}},{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"Yields_df.Total Yield\"}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"114.07482602473257D\"}}}},\"selector\":{\"metadata\":\"Yields_df.Area\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"115.997088744379D\"}}}},\"selector\":{\"metadata\":\"Yields_df.Average Yield\"}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Default'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Area\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 317.54,
+          "width": 339.50,
+          "x": 1008.53,
+          "y": 199.71,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"54e63ebcab55d6644e9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1617.6409402954025,\"y\":101.85146661119201,\"z\":8000,\"width\":35.94757645100894,\"height\":35.94757645100894,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"average_rainfall28900413756745913.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 35.95,
+          "width": 35.95,
+          "x": 1617.64,
+          "y": 101.85,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"5ba9b1176143db96ba71\",\"layouts\":[{\"id\":0,\"position\":{\"x\":22.776344086021506,\"y\":4.880645161290323,\"z\":1000,\"width\":69.95591397849462,\"height\":65.0752688172043,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-autumn-mature-crop-pad6640792942494805.jpg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.08,
+          "width": 69.96,
+          "x": 22.78,
+          "y": 4.88,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"5d0f47672d255aa2d30c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.9912627418348245,\"y\":199.7087580611608,\"z\":19000,\"width\":247.6388599958394,\"height\":297.5660495111296,\"tabOrder\":19000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Key Insight\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"The data reveals that India leads in both production volume and yield, followed closely by Brazil, Mexico, Japan, and Australia.\",\"textStyle\":{\"fontSize\":\"12pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\" On the other end of the spectrum, countries like Namibia, Sudan, Montenegro, Eritrea, and Botswana consistently record the lowest production.\",\"textStyle\":{\"fontSize\":\"12pt\"}}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C7C599'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 297.57,
+          "width": 247.64,
+          "x": 5.99,
+          "y": 199.71,
+          "z": 19000.00
+        },
+        {
+          "config": "{\"name\":\"9289da8f2521dadb752b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.9912627418348245,\"y\":93.86311628874557,\"z\":2000,\"width\":1673.5593925525275,\"height\":89.86894112752236,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Yields_df.Total Yield\"},{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Pesticide Efficiency\"},{\"queryRef\":\"Yields_df.Average Temp\"},{\"queryRef\":\"Yields_df.Average Rainfall\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticide Efficiency\"},\"Name\":\"Yields_df.Pesticide Efficiency\",\"NativeReferenceName\":\"Pesticide Efficiency\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Temp\"},\"Name\":\"Yields_df.Average Temp\",\"NativeReferenceName\":\"Average Temperature\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Rainfall\"},\"Name\":\"Yields_df.Average Rainfall\",\"NativeReferenceName\":\"Average Rainfall\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"columnProperties\":{\"Yields_df.Average Temp\":{\"displayName\":\"Average Temperature\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}},{\"properties\":{\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'belowValue'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"glowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"27L\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 89.87,
+          "width": 1673.56,
+          "x": 5.99,
+          "y": 93.86,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"9f382025337a0a40d410\",\"layouts\":[{\"id\":0,\"position\":{\"x\":936.6340753068441,\"y\":525.2340337008529,\"z\":18000,\"width\":728.9369669232369,\"height\":339.5048887039734,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"HeatMap67B54F74B5374B9EA95AC568DC37B14C\",\"projections\":{\"yAxis\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}],\"xAxis\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}],\"Value\":[{\"queryRef\":\"Yields_df.Average Yield\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataColors\":[{\"properties\":{\"colorConfig\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"fillmin\\\":\\\"rgb(253,98,94)\\\",\\\"midcolor\\\":false,\\\"fillmid\\\":\\\"rgb(3,194,129)\\\",\\\"fillmax\\\":\\\"rgb(92,113,187)\\\",\\\"fillnull\\\":\\\"rgb(246,245,245)\\\",\\\"fillType\\\":\\\"sequential\\\",\\\"dataClasses\\\":[],\\\"isReversed\\\":false,\\\"numberOfClasses\\\":5,\\\"schemeColors\\\":[\\\"rgb(183,225,185)\\\",\\\"rgb(151,207,154)\\\",\\\"rgb(120,190,123)\\\",\\\"rgb(89,172,92)\\\",\\\"rgb(57,154,62)\\\"],\\\"colorScheme\\\":\\\"Green\\\",\\\"reverse\\\":false,\\\"isGradient\\\":false,\\\"lastRowMax\\\":true,\\\"singleColor\\\":\\\"rgb(92,113,187)\\\",\\\"reversePowerBi\\\":false,\\\"powerBiClasses\\\":\\\"5\\\",\\\"colorBlindSafe\\\":false}'\"}}}}}],\"axisSettings\":[{\"properties\":{\"axisConfig\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"active\\\":\\\"XAXIS\\\",\\\"enableXAxis\\\":true,\\\"xPosition\\\":\\\"top\\\",\\\"xTitle\\\":true,\\\"customXLabel\\\":\\\"\\\",\\\"xTitleLabelFontFamily\\\":\\\"\\\\\\\"Segoe UI\\\\\\\", wf_segoe-ui_normal, helvetica, arial, sans-serif\\\",\\\"xTitleLabelFontSize\\\":15,\\\"xTitleStyling\\\":[\\\"bold\\\"],\\\"xTitleLabelColor\\\":\\\"#444444\\\",\\\"xTitleEnableBG\\\":false,\\\"xTitleLabelBGColor\\\":\\\"#C3C3C3\\\",\\\"xLabelFontFamily\\\":\\\"\\\\\\\"Segoe UI\\\\\\\", wf_segoe-ui_normal, helvetica, arial, sans-serif\\\",\\\"xLabelFontSize\\\":13,\\\"xStyling\\\":[\\\"bold\\\"],\\\"xLabelColor\\\":\\\"#444444\\\",\\\"xEnableBG\\\":false,\\\"xLabelBGColor\\\":\\\"#C3C3C3\\\",\\\"xLabelsCustomTextWidth\\\":false,\\\"xLabelsCustomTextWidthValue\\\":15,\\\"xTransparency\\\":100,\\\"autoXLabelTilt\\\":true,\\\"xTiltValue\\\":30,\\\"autoXLabelLimit\\\":true,\\\"xLabelLimitVal\\\":8,\\\"autoYLabelTilt\\\":true,\\\"yTiltValue\\\":30,\\\"autoYLabelLimit\\\":true,\\\"yLabelLimitVal\\\":12,\\\"autoXDateFormat\\\":true,\\\"autoYDateFormat\\\":true,\\\"xDateFormatVal\\\":\\\"dd:mm:yyyy\\\",\\\"yDateFormatVal\\\":\\\"dd:mm:yyyy\\\",\\\"customXDateFormat\\\":\\\"\\\",\\\"customYDateFormat\\\":\\\"\\\",\\\"enableYAxis\\\":true,\\\"yPosition\\\":\\\"left\\\",\\\"yTitle\\\":true,\\\"customYLabel\\\":\\\"\\\",\\\"yTitleLabelFontFamily\\\":\\\"\\\\\\\"Segoe UI\\\\\\\", wf_segoe-ui_normal, helvetica, arial, sans-serif\\\",\\\"yTitleLabelFontSize\\\":15,\\\"yTitleStyling\\\":[\\\"bold\\\"],\\\"yTitleEnableBG\\\":false,\\\"yTitleLabelColor\\\":\\\"#444444\\\",\\\"yTitleLabelBGColor\\\":\\\"#C3C3C3\\\",\\\"yLabelFontFamily\\\":\\\"\\\\\\\"Segoe UI\\\\\\\", wf_segoe-ui_normal, helvetica, arial, sans-serif\\\",\\\"yLabelFontSize\\\":13,\\\"yStyling\\\":[\\\"bold\\\"],\\\"yEnableBG\\\":false,\\\"yLabelColor\\\":\\\"#444444\\\",\\\"yLabelBGColor\\\":\\\"#C3C3C3\\\",\\\"yLabelsCustomTextWidth\\\":false,\\\"yLabelsCustomTextWidthValue\\\":15,\\\"yTransparency\\\":100}'\"}}}}}],\"config\":[{\"properties\":{\"customCount\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"isCustomRowCount\\\":false,\\\"isCustomColumnCount\\\":false,\\\"rowCount\\\":\\\"15\\\",\\\"colCount\\\":\\\"15\\\",\\\"addScrollBeyondMinSize\\\":true,\\\"scrollMinHeightThreshold\\\":\\\"30\\\",\\\"scrollMinWidthThreshold\\\":\\\"50\\\"}'\"}}}}}],\"dataLabelsConfig\":[{\"properties\":{\"labelsConfig\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"enable\\\":true,\\\"autoFitLabel\\\":false,\\\"displayStyle\\\":\\\"VALUE\\\",\\\"maxCharLimitEnabled\\\":false,\\\"maxCharLimit\\\":\\\"20\\\",\\\"transparency\\\":\\\"100\\\",\\\"backgroundColor\\\":\\\"rgba(255,255,255,0)\\\",\\\"textColorType\\\":\\\"auto\\\",\\\"color\\\":\\\"rgba(255,255,255,1)\\\",\\\"shadowType\\\":\\\"rect\\\",\\\"autoFontSize\\\":true,\\\"fontSize\\\":\\\"10\\\",\\\"fontFamily\\\":\\\"\\\\\\\"Segoe UI\\\\\\\", wf_segoe-ui_normal, helvetica, arial, sans-serif\\\",\\\"styling\\\":[\\\"bold\\\"],\\\"textShadow\\\":false,\\\"shadowColor\\\":\\\"rgba(205,204,204,1)\\\"}'\"}}}}}],\"chartShapes\":[{\"properties\":{\"shapeConfig\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"shape\\\":\\\"FIT_TO_SIZE\\\",\\\"icon\\\":{\\\"prefix\\\":\\\"fas\\\",\\\"iconName\\\":\\\"circle\\\",\\\"icon\\\":[512,512,[],\\\"f111\\\",\\\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\\\"],\\\"tabDetails\\\":{\\\"type\\\":\\\"faicon\\\",\\\"tabName\\\":\\\"__icons__\\\"}},\\\"showNullAs\\\":\\\"custom\\\",\\\"nullCustomVal\\\":\\\"0\\\",\\\"rowGap\\\":2,\\\"colGap\\\":2,\\\"roundedCorner\\\":\\\"sharp\\\",\\\"roundedCornerValue\\\":10,\\\"iconsDiverging\\\":[],\\\"fillShape\\\":true,\\\"border\\\":false,\\\"borderForNull\\\":true,\\\"borderColor\\\":\\\"rgb(74,74,74)\\\",\\\"borderWidth\\\":\\\"1\\\",\\\"sizeType\\\":\\\"auto\\\",\\\"customSizeMin\\\":\\\"35\\\",\\\"customSizeMax\\\":\\\"100\\\",\\\"lastRowMax\\\":true,\\\"showSeperatorLine\\\":false,\\\"seperatorLineType\\\":\\\"dashed\\\",\\\"seperatorLineWidth\\\":2,\\\"seperatorLineColor\\\":\\\"rgba(0,0,0,0.2)\\\",\\\"nullColor\\\":\\\"rgb(68,68,68)\\\",\\\"nullBGColor\\\":\\\"rgb(247,247,247)\\\",\\\"customSize\\\":false}'\"}}}}}],\"visualSetting\":[{\"properties\":{\"theme\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 339.50,
+          "width": 728.94,
+          "x": 936.63,
+          "y": 525.23,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"a6f8b74087a7a0c0c09e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":37.944664031620555,\"y\":515.2485957977949,\"z\":15000,\"width\":868.7330975660495,\"height\":357.47867692947784,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}],\"Series\":[{\"queryRef\":\"Yields_df.Crop\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Sum of Yield_Ton/Hectare\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Yield By Area & Crop'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 357.48,
+          "width": 868.73,
+          "x": 37.94,
+          "y": 515.25,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"ac10292ff0a90b910551\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1348.888888888889,\"y\":11.11111111111111,\"z\":5000,\"width\":138.88888888888889,\"height\":55.55555555555556,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Rainfall_Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_Category\"},\"Name\":\"Yields_df.Rainfall_Category\",\"NativeReferenceName\":\"Rainfall_Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Rainfall Category'\"}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 138.89,
+          "x": 1348.89,
+          "y": 11.11,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"b6738546a10c3189c305\",\"layouts\":[{\"id\":0,\"position\":{\"x\":629.0825878926565,\"y\":103.84855419180361,\"z\":10000,\"width\":35.94757645100894,\"height\":41.93883919284377,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"2178648-2009288381997903287.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 41.94,
+          "width": 35.95,
+          "x": 629.08,
+          "y": 103.85,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"bd0ab6bc936b63cdd9f2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1095.5555555555554,\"y\":10,\"z\":3000,\"width\":110,\"height\":55.55555555555556,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Year\"},\"Name\":\"Yields_df.Year\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 110.00,
+          "x": 1095.56,
+          "y": 10.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"c72fb890061dea04a41a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1282.1302267526523,\"y\":77.88641564385271,\"z\":7000,\"width\":49.9271895152902,\"height\":81.88059080507593,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"temp10297844402175471.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 81.88,
+          "width": 49.93,
+          "x": 1282.13,
+          "y": 77.89,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"dbb1bc2b8a31eee8136e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.953401289785727,\"y\":515.2485957977949,\"z\":14000,\"width\":1647.5972540045766,\"height\":357.47867692947784,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 357.48,
+          "width": 1647.60,
+          "x": 31.95,
+          "y": 515.25,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"e802588fd59540068317\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1348.0341169128355,\"y\":199.7087580611608,\"z\":16000,\"width\":347.4932390264198,\"height\":315.53983773663407,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Total Yield\"}],\"Rows\":[{\"queryRef\":\"Yields_df.Area\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"Yields_df.Area\",\"NativeReferenceName\":\"Area\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"subTotals\":[{\"properties\":{\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnHeaders\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}}}}],\"rowHeaders\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"steppedLayoutIndentation\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}],\"values\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"grid\":[{\"properties\":{\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"rowPadding\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}],\"columnFormatting\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"Yields_df.Average Yield\"}},{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"Yields_df.Total Yield\"}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"111.99126943617013D\"}}}},\"selector\":{\"metadata\":\"Yields_df.Area\"}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Default'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Area\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Area\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 315.54,
+          "width": 347.49,
+          "x": 1348.03,
+          "y": 199.71,
+          "z": 16000.00
+        }
+      ],
+      "width": 1713.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Yield and Time Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 900.00,
+      "name": "cfc96679450238dc958f",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"062c038f3d8267ecb61b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":215.68545870605368,\"y\":203.70293322238402,\"z\":3000,\"width\":910.6719367588933,\"height\":301.56022467235283,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Year\"},\"Name\":\"Yields_df.Year\",\"NativeReferenceName\":\"Year\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Sum of Yield_Ton/Hectare\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Yield'\"}}}}}],\"legend\":[{\"properties\":{\"legendMarkerRendering\":{\"expr\":{\"Literal\":{\"Value\":\"'markerCircleDefault'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Yield '\"}}}}}],\"lineStyles\":[{\"properties\":{\"strokeLineJoin\":{\"expr\":{\"Literal\":{\"Value\":\"'round'\"}}},\"lineChartType\":{\"expr\":{\"Literal\":{\"Value\":\"'linear'\"}}},\"areaShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#3DDE65'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}},{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"71D\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"y2Axis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"secShowAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Yield Through Years'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 301.56,
+          "width": 910.67,
+          "x": 215.69,
+          "y": 203.70,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"08278c2b8ec63de050c8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":215.55555555555554,\"y\":92.22222222222221,\"z\":8000,\"width\":93.33333333333333,\"height\":45.55555555555556,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-growth-arrow-png-image39389680589500176.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 45.56,
+          "width": 93.33,
+          "x": 215.56,
+          "y": 92.22,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"082d1de9eb6384111e68\",\"layouts\":[{\"id\":0,\"position\":{\"x\":6.666666666666666,\"y\":92.22222222222221,\"z\":2000,\"width\":1494.4444444444443,\"height\":91.11111111111111,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Yields_df.Total Yield\"},{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Pesticide Efficiency\"},{\"queryRef\":\"Yields_df.Average Temp\"},{\"queryRef\":\"Yields_df.Average Rainfall\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Pesticide Efficiency\"},\"Name\":\"Yields_df.Pesticide Efficiency\",\"NativeReferenceName\":\"Pesticide Efficiency\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Temp\"},\"Name\":\"Yields_df.Average Temp\",\"NativeReferenceName\":\"Average Temperature\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Rainfall\"},\"Name\":\"Yields_df.Average Rainfall\",\"NativeReferenceName\":\"Average Rainfall\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"columnProperties\":{\"Yields_df.Average Temp\":{\"displayName\":\"Average Temperature\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}},{\"properties\":{\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'belowValue'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"glowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"27L\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 91.11,
+          "width": 1494.44,
+          "x": 6.67,
+          "y": 92.22,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"0e9d1f6b3ebd8621190c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.988350322446432,\"y\":203.70293322238402,\"z\":18000,\"width\":193.717495319326,\"height\":301.56022467235283,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Key Insights\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"20pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"From \",\"textStyle\":{\"fontSize\":\"14pt\"}},{\"value\":\"1993 to 2013\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\"}},{\"value\":\", overall yield increased steadily with Potato and Sweet Potatoes being the leading contributors to this upward trend.\",\"textStyle\":{\"fontSize\":\"14pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Followed by Maize , Rice and Wheat.\",\"textStyle\":{\"fontSize\":\"14pt\"}}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C7C599'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 301.56,
+          "width": 193.72,
+          "x": 7.99,
+          "y": 203.70,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"2b36b161d6ce8d69640f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":6.50752688172043,\"y\":0,\"z\":0,\"width\":1495.1043010752687,\"height\":76.46344086021506,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"43L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#348D3E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crop Yield Analysis | Overview'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 76.46,
+          "width": 1495.10,
+          "x": 6.51,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"2fb524a9d7834d753a37\",\"layouts\":[{\"id\":0,\"position\":{\"x\":22.776344086021506,\"y\":4.880645161290323,\"z\":1000,\"width\":69.95591397849462,\"height\":65.0752688172043,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pngtree-autumn-mature-crop-pad6640792942494805.jpg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.08,
+          "width": 69.96,
+          "x": 22.78,
+          "y": 4.88,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"46f626c241c4079e2d1a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":908.8888888888889,\"y\":545.5555555555555,\"z\":16000,\"width\":581.1111111111111,\"height\":338.88888888888886,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}],\"Y\":[{\"queryRef\":\"Yields_df.Total Yield\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent of total'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"slices\":[{\"properties\":{\"startAngle\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"innerRadiusRatio\":{\"expr\":{\"Literal\":{\"Value\":\"63L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 338.89,
+          "width": 581.11,
+          "x": 908.89,
+          "y": 545.56,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"492ff7f9a517184ccee1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1224.4444444444443,\"y\":10,\"z\":5000,\"width\":120,\"height\":55.55555555555556,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 120.00,
+          "x": 1224.44,
+          "y": 10.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"4cabf7c90263a2a0b480\",\"layouts\":[{\"id\":0,\"position\":{\"x\":822.2222222222222,\"y\":11.11111111111111,\"z\":13000,\"width\":120,\"height\":55.55555555555556,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Temperature Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Temperature Category\"},\"Name\":\"Yields_df.Temperature Category\",\"NativeReferenceName\":\"Temperature Category\"}]},\"columnProperties\":{\"Yields_df.Temperature Category\":{\"displayName\":\"Temp_Category.\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 120.00,
+          "x": 822.22,
+          "y": 11.11,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"517e7b703975409ea0a6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":550,\"y\":104.44444444444444,\"z\":9000,\"width\":42.22222222222222,\"height\":33.333333333333336,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"2178648-20048956157125996336.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 33.33,
+          "width": 42.22,
+          "x": 550.00,
+          "y": 104.44,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"6c11d48220628668306d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":822.2222222222222,\"y\":97.77777777777777,\"z\":12000,\"width\":72.22222222222221,\"height\":40,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fertilizer_usage5873990170103875.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 72.22,
+          "x": 822.22,
+          "y": 97.78,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"7287a855558bc55d05db\",\"layouts\":[{\"id\":0,\"position\":{\"x\":955.5555555555555,\"y\":11.11111111111111,\"z\":7000,\"width\":142.22222222222223,\"height\":55.55555555555556,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Yield Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield Category\"},\"Name\":\"Yields_df.Yield Category\",\"NativeReferenceName\":\"Yield Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 142.22,
+          "x": 955.56,
+          "y": 11.11,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"7c746bc7f8bfcdcd5597\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1353.3333333333333,\"y\":11.11111111111111,\"z\":6000,\"width\":136.66666666666666,\"height\":55.55555555555556,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Rainfall_Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Rainfall_Category\"},\"Name\":\"Yields_df.Rainfall_Category\",\"NativeReferenceName\":\"Rainfall_Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Rainfall Category'\"}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 136.67,
+          "x": 1353.33,
+          "y": 11.11,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"87a6549fe0e430787363\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1435.5555555555554,\"y\":97.77777777777777,\"z\":11000,\"width\":54.44444444444444,\"height\":40,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"average_rainfall6877055805695903.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 54.44,
+          "x": 1435.56,
+          "y": 97.78,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"92ae7929539b3cd86a55\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1142.2222222222222,\"y\":97.77777777777777,\"z\":10000,\"width\":44.44444444444444,\"height\":45.55555555555556,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"temp5857714899896066.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 45.56,
+          "width": 44.44,
+          "x": 1142.22,
+          "y": 97.78,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"a0cb9bc5de30977d536c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1146.328271271063,\"y\":203.70293322238402,\"z\":17000,\"width\":355.48158934886624,\"height\":301.56022467235283,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}],\"Values\":[{\"queryRef\":\"Yields_df.Average Yield\"},{\"queryRef\":\"Yields_df.Total Yield\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"},\"Name\":\"Yields_df.Total Yield\",\"NativeReferenceName\":\"Total Yield\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Average Yield\"},\"Name\":\"Yields_df.Average Yield\",\"NativeReferenceName\":\"Average Yield\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"subTotals\":[{\"properties\":{\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnHeaders\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}],\"rowHeaders\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"steppedLayoutIndentation\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}],\"values\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"grid\":[{\"properties\":{\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"rowPadding\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}],\"columnFormatting\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}}},\"selector\":{\"metadata\":\"Yields_df.Average Yield\"}},{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}},\"selector\":{\"metadata\":\"Yields_df.Total Yield\"}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Default'\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Crop\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Total Yield\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 301.56,
+          "width": 355.48,
+          "x": 1146.33,
+          "y": 203.70,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"a5b96c3087586a9609e7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.333333333333332,\"y\":526.6666666666666,\"z\":14000,\"width\":1478.888888888889,\"height\":365.55555555555554,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 365.56,
+          "width": 1478.89,
+          "x": 23.33,
+          "y": 526.67,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"ef41792440eecca54d72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":47.77777777777778,\"y\":545.5555555555555,\"z\":15000,\"width\":715.5555555555555,\"height\":338.88888888888886,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Yields_df.Crop\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Yields_df.Yield_Ton/Hectare)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Crop\"},\"Name\":\"Yields_df.Crop\",\"NativeReferenceName\":\"Crop\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0},\"Name\":\"Sum(Yields_df.Yield_Ton/Hectare)\",\"NativeReferenceName\":\"Sum of Yield_Ton/Hectare\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Yields_df\"}},\"Property\":\"Yield_Ton/Hectare\"}},\"Function\":0}},\"FillRule\":{\"linearGradient3\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#C0F144'\"}}},\"mid\":{\"color\":{\"Literal\":{\"Value\":\"'#5AB762'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#128436'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'noColor'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"enableValueDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Crops per Yield'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 338.89,
+          "width": 715.56,
+          "x": 47.78,
+          "y": 545.56,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"fc55ab5d2b541bf07857\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1105.5555555555554,\"y\":11.11111111111111,\"z\":4000,\"width\":102.22222222222221,\"height\":55.55555555555556,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Yields_df.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"Yields_df\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"Year\"},\"Name\":\"Yields_df.Year\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"numericInputStyle\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.56,
+          "width": 102.22,
+          "x": 1105.56,
+          "y": 11.11,
+          "z": 4000.00
+        }
+      ],
+      "width": 1513.00
+    }
+  ]
+}

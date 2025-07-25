@@ -1,7 +1,8 @@
 # Crop Yield Analysis
-![](
+![](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/crop%20yield%20analysis.jpg)
 
-### Project Overview
+
+# Project Overview
 This data analysis project aims to uncover key insights into crop production, environmental impact, and input efficiency across different regions and climatic conditions.
 By analyzing historical agricultural data from 1993 to 2013, the project seeks to identify yield trends, regional performance,
 and the relationship between climate variables and crop output. 
@@ -13,10 +14,9 @@ The ultimate goal is to provide data-driven recommendations that support climate
 
 
 ### Tools
- - Python - Data Cleaning
-    - [Download here] (
- - SQL Server - Data Analysis & Queries
- - Power BI - Creating reports & Dashboards
+ - Python - Data Cleaning [Download here](
+ - SQL Server - Data Analysis & Queries [Download here](
+ - Power BI - Creating reports & Dashboards [Download here](
 
 
 ### Data Cleaning / Preparation

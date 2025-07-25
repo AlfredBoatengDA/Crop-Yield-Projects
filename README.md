@@ -1,5 +1,5 @@
 # Crop Yield Analysis
-
+![](
 
 ### Project Overview
 This data analysis project aims to uncover key insights into crop production, environmental impact, and input efficiency across different regions and climatic conditions.
@@ -16,7 +16,7 @@ The ultimate goal is to provide data-driven recommendations that support climate
  - Python - Data Cleaning
     - [Download here] (
  - SQL Server - Data Analysis & Queries
- - Power BI - Creating reports
+ - Power BI - Creating reports & Dashboards
 
 
 ### Data Cleaning / Preparation

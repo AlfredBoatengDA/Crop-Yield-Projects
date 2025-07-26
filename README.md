@@ -14,9 +14,9 @@ The ultimate goal is to provide data-driven recommendations that support climate
 
 
 ### Tools
- - Python - Data Cleaning [Download here](
- - SQL Server - Data Analysis & Queries [Download here](
- - Power BI - Creating reports & Dashboards [Download here](
+ - Python - Data Cleaning & Exploratory Data Analysis [](
+ - SQL Server - Data Analysis & Queries [](
+ - Power BI - Creating reports & Dashboards [](
 
 
 ### Data Cleaning / Preparation

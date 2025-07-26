@@ -15,25 +15,10 @@ The ultimate goal is to provide data-driven recommendations that support climate
 
 ### Tools
  - Python - Data Cleaning & Exploratory Data Analysis - [View](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Data%20Cleaning.ipynb)
- - SQL Server - Data Analysis & Queries - [View](
+ - SQL Server - Data Analysis & Queries - [View](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/SQL%20Analysis%20and%20Queries.sql)
  - Power BI - Creating reports & Dashboards - [View](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Crop%20Yield%20Analysis%20Power%20BI%20Dashboard.pbix)
 
 
-### Data Cleaning / Preparation
-
-In the initial data preparation phase, we performed the following tasks:
-1. Data laoding and inspection
-2. Handling missing values.
-3. Data cleaning and formatting
-
-
-### Exploratory Data Analysis
-
-- What is the total yield trend?
-- Which crop had the most yield?
-- What is the average rainfall pattern?
-- What is the average temperature?
-- Which country produced the most yield?
 
 
 # Data Analysis

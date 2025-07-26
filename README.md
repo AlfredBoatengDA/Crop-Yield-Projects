@@ -16,7 +16,7 @@ The ultimate goal is to provide data-driven recommendations that support climate
 ### Tools
  - Python - Data Cleaning & Exploratory Data Analysis [](
  - SQL Server - Data Analysis & Queries [](
- - Power BI - Creating reports & Dashboards [](
+ - Power BI - Creating reports & Dashboards - [View](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Crop%20Yield%20Analysis%20Power%20BI%20Dashboard.pbix)
 
 
 ### Data Cleaning / Preparation

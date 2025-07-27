@@ -75,7 +75,7 @@ These crops have demonstrated not only high and consistent yie
 
 ### 🌱 Crop Overview Dashboard 
 
-> ![Crop Overview Dashboard]()   
+> ![Yield & Time Analysis](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Yield%20and%20Time%20Analysis%20Image.jpeg)   
 
 > *Potato, Sweet Potato, and Cassava lead in productivity over the years. Maize and Rice shows more volatility across temperature zones. Soybeans while lowest in yield, remains important in specific regions.* 
 

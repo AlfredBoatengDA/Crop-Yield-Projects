@@ -8,15 +8,18 @@ By analyzing historical agricultural data from 1993 to 2013, the project seeks t
 and the relationship between climate variables and crop output. 
 The ultimate goal is to provide data-driven recommendations that support climate-resilient agriculture, inform policy decisions, and guide investment in sustainable farming practices.
 
+### Problem Statement
+
 
 
 ### Data Source
 
 
 ### Tools
- - Python - Data Cleaning & Exploratory Data Analysis - [View](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Data%20Cleaning.ipynb)
- - SQL Server - Data Analysis & Queries - [View](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/SQL%20Analysis%20and%20Queries.sql)
- - Power BI - Creating reports & Dashboards - [View](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Crop%20Yield%20Analysis%20Power%20BI%20Dashboard.pbix)
+ - Python - Data Cleaning & Exploratory Data Analysis can be downloaded [here](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Data%20Cleaning.ipynb)
+ - SQL Server - Data Analysis & Queries utilized to inspect, perform quality checks
+                and aslo regarding various business questions- [here](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/SQL%20Analysis%20and%20Queries.sql)
+ - Power BI - Creating reports & Dashboards - [here](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Crop%20Yield%20Analysis%20Power%20BI%20Dashboard.pbix)
 
 
 

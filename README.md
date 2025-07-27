@@ -57,7 +57,9 @@ These crops have demonstrated not only high and consistent yie
 
 - Potato is the most resilient crops under varying temperature and rainfall conditions followed by Sweet Potato and Cassava. 
 
-- Excessive heat above 30°C leads to yield declines across all crops, highlighting the need for climate-smart planning. 
+- Excessive heat above 30°C leads to yield declines across all crops, highlighting the need for climate-smart planning.
+  
+- Yield drops by 20–35% under cold stress (10°C–15°C). High rainfall (>1999mm) zones face yield decline due to poor drainage.  
 
 - High pesticide use does not always correlate with higher yields, indicating inefficiencies in input allocation.  
 
@@ -75,35 +77,63 @@ These crops have demonstrated not only high and consistent yie
 
 ### 🌱 Crop Overview Dashboard 
 
+Our overall yield inreased steadily driven primarily by Root and tuber crops like Potato, Sweet Potato, and Cassava lead in productivity, showing strong responsiveness to inputs and adaptability to current conditions. Cereal crops like Maize, Rice, and Wheat yield less overall as compared to roots and tubers but display a steady upward trend. 
+Plantain and Sorghum remain stable but underperforming. Plantain exhibited noticeable fluctuations from year to year.
+Sorghum remained largely stable with only slight fluctuations and a slow increase in yield while Soybean stands out as the lowest yielding crop contributing 2.4% 
+but remains important in specific regions.
+
+
+&nbsp; 
+
+
 > ![Yield & Time Analysis](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Yield%20and%20Time%20Analysis%20Image.jpeg)   
 
-> *Potato, Sweet Potato, and Cassava lead in productivity over the years. Maize and Rice shows more volatility across temperature zones. Soybeans while lowest in yield, remains important in specific regions.* 
+&nbsp; 
+
+ ***
+
+### 🌍 Environmental Impact Analysis
 
  
 
-### 🌍 Environmental Impact Analysis Dashboard 
+ * From our 20years yield analysis, total crop yield increased steadily alongside a gradual rise in average temperature. While temperature showed slight year-to-year fluctuations, the  
+   overall trend aligned with yield growth. This suggests a positive correlation between temperature and yield during this period but it does not prove that temperature caused yield to 
+   rise, possibly due to adaptation strategies, improved agricultural inputs, or resilient crop varieties.
 
-> ![Environmental Dashboard](#)   
+* Crop performance is highest under ideal temperature conditions, with potato, sweet potato, and cassava leading in yield. Warm and cool stress conditions reduce yield, though potato 
+  remains relatively resilient. However, under excessively hot temperatures, all crops show a sharp decline in productivity, highlighting the vulnerability of current crop varieties to 
+  extreme heat.
 
-“From our 20years yield analysis, total crop yield increased steadily alongside a gradual rise in average temperature. While temperature showed slight year-to-year fluctuations, the overall trend aligned with yield growth. This suggests a positive correlation between temperature and yield during this period but it does not prove that temperature caused yield to rise, possibly due to adaptation strategies, improved agricultural inputs, or resilient crop varieties.” 
+* Potato is the most resilient and efficient crop across all rainfall categories. It consistently leads in yield, especially in Optimal (1000mm - 1999mm) and Moderate(500mm - 999mm) 
+  rainfall conditions and still performs relatively well even under Drought Risk (<499mm), suggesting exceptional water-use efficiency and adaptability.
+  This positions Potato as a highly reliable crop for varying climate conditions. 
+* Cassava and sweet potato also show strong performance, particularly under Optimal rainfall. However, cassava yield declines sharply in Moderate and Drought Risk zones, while Sweet 
+  Potato maintains relatively stable output, indicating better tolerance to changing rainfall patterns. Their performance contrasts sharply with cereal crops like Maize, Rice, Wheat, 
+  and Soybean, which receive Optimal rainfall but deliver consistently low yields. This can be because of uneven distribution of rainfall. 
+* In Flood Risk zones, all crops underperform significantly, highlighting the detrimental effect of excess water on productivity.
+  Additionally, Sorghum and Soybeans record persistently low yields across rainfall categories reflecting possible water stress. 
+  
+ 
 
-Crop performance is highest under ideal temperature conditions, with potato, sweet potato, and cassava leading in yield. Warm and cool stress conditions reduce yield, though potato remains relatively resilient. However, under excessively hot temperatures, all crops show a sharp decline in productivity, highlighting the vulnerability of current crop varieties to extreme heat.” 
+* While countries within the Optimal rainfall range (1000–1999 mm) generally achieve the highest agricultural productivity, our analysis shows that rainfall volume alone does not 
+  determine yield outcomes. In drought-prone regions, while countries recorded low yield, countries like Pakistan with rainfall pattern (494mm) outperform peers through irrigation and 
+  climate-smart practices. Similarly, Mexico and Australia thrive under moderate rainfall (500mm – 999mm) due to strong agricultural infrastructure, while Indonesia with rainfall 
+  pattern (2702mm) proves that high yields are still possible in flood-prone areas with the right crop selection and water management. This emphasizes that effective adaptation 
+  strategies are just as important as environmental conditions. 
 
-Potato shows high efficiency in rainfall utilization, leading in both water use and yield. Conversely, maize, rice, wheat, and soybean receive similar or more rainfall but deliver significantly lower yields, revealing inefficiencies. Sweet potato and cassava demonstrate stable or improved yield with less water, indicating resilience. Low yields in yam and plantain reflect likely water stress. 
+> ![Environmental Dashboard](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Environmental%20Analysis%20Image.jpeg)  
+ 
 
-While countries within the Optimal rainfall range (1000–1999 mm) generally achieve the highest agricultural productivity, our analysis shows that rainfall volume alone does not determine yield outcomes. In drought-prone regions, while countries recorded low yield, countries like Pakistan with rainfall pattern (494mm) outperform peers through irrigation and climate-smart practices. Similarly, Mexico and Australia thrive under moderate rainfall(500mm – 999mm) due to strong agricultural infrastructure, while Indonesia with rainfall pattern(2702mm) proves that high yields are still possible in flood-prone areas with the right crop selection and water management. This emphasizes that effective adaptation strategies are just as important as environmental conditions. 
+&nbsp;
 
+***
  
 
  
 
-> *Yield drops by 20–35% under cold stress (10°C–15°C). High rainfall (>1999mm) zones face yield decline due to poor drainage.  
+### 🌎 Regional Analysis 
 
  
-
-### 🌎 Regional Analysis Dashboard 
-
-> ![Regional Dashboard](#)   
 
 🌍 Top Yield Contributors Drive Global Output 
 
@@ -119,7 +149,7 @@ Countries like Namibia, Sudan, Montenegro, Eritrea, and Botswana show consistent
 
 due to limited mechanization, input access or climatic political instability. 
 
- 
+ > ![Regional Dashboard](#)  
 
  
 

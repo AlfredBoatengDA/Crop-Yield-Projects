@@ -155,7 +155,7 @@ due to limited mechanization, input access or climatic political instability.
 
 ### 💧 Input Usage & Efficiency Dashboard 
 
-> ![Input Usage Dashboard](#)   
+> ![Input Usage Dashboard](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Input%20Usage%20Analysis%20Image.jpeg)   
 
 > Potato which accounted for the largest share of pesticide used at 13.13% showed a strong positive response to pesticide application, with higher pesticide use correlating with significantly higher yields. 
 Sweet potato and cassava contributing 10.89% and 8.62% respectively also benefited, but their total yields remained moderate, suggesting limited productivity despite pesticide investment. 

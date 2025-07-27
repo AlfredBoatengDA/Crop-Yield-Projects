@@ -149,6 +149,32 @@ GROUP BY Year
 ORDER BY Year
 
 
+SELECT Year,
+	   CAST(SUM(Yield_Ton_Hectare) AS DECIMAL(10, 2)) Total_Yield
+FROM Yield
+WHERE Crop = 'Cassava'
+GROUP BY Year
+ORDER BY Year
+
+
+SELECT Year,
+	   CAST(SUM(Yield_Ton_Hectare) AS DECIMAL(10, 2)) Total_Yield
+FROM Yield
+WHERE Crop = 'Potatoes'
+GROUP BY Year
+ORDER BY Year
+
+
+SELECT Year,
+	   CAST(SUM(Yield_Ton_Hectare) AS DECIMAL(10, 2)) Total_Yield
+FROM Yield
+WHERE Crop = 'Plantains'
+GROUP BY Year
+ORDER BY Year
+
+
+
+
 
 
 

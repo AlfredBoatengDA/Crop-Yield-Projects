@@ -47,7 +47,7 @@ The ultimate goal is to provide data-driven recommendations that support climate
 This analysis uncovers critical relationships between climate patterns, agricultural inputs, and crop performance, offering data-driven insights to optimize yield resilience and resource allocation.
  
 
-### 💡 Overview of Findings 
+###  Overview of Findings 
 
 - Our 20-year yield trend analysis reveals a steady increase in agricultural productivity, led primarily by Potato, Sweet Potato and Cassava contributing 39%, 16% and 14% respectivelyto yield.  
 
@@ -75,12 +75,13 @@ These crops have demonstrated not only high and consistent yie
 
  
 
-### 🌱 Crop Overview Dashboard 
+###  Crop Overview Dashboard 
 
-Our overall yield inreased steadily driven primarily by Root and tuber crops like Potato, Sweet Potato, and Cassava lead in productivity, showing strong responsiveness to inputs and adaptability to current conditions. Cereal crops like Maize, Rice, and Wheat yield less overall as compared to roots and tubers but display a steady upward trend. 
-Plantain and Sorghum remain stable but underperforming. Plantain exhibited noticeable fluctuations from year to year.
-Sorghum remained largely stable with only slight fluctuations and a slow increase in yield while Soybean stands out as the lowest yielding crop contributing 2.4% 
-but remains important in specific regions.
+* Our overall yield inreased steadily driven primarily by Root and tuber crops like Potato, Sweet Potato, and Cassava lead in productivity, showing strong responsiveness to inputs and 
+  adaptability to current conditions. Cereal crops like Maize, Rice, and Wheat yield less overall as compared to roots and tubers but display a steady upward trend. 
+* Plantain and Sorghum remain stable but underperforming. But Plantain exhibited noticeable fluctuations from year to year. Sorghum remained largely stable with only slight
+  fluctuations and a slow increase in yield.
+* Soybean stands out as the lowest yielding crop contributing 2.4% but remains important in specific regions.
 
 
 &nbsp; 
@@ -92,7 +93,7 @@ but remains important in specific regions.
 
  ***
 
-### 🌍 Environmental Impact Analysis
+###  Environmental Impact Analysis
 
  
 
@@ -127,60 +128,79 @@ but remains important in specific regions.
 &nbsp;
 
 ***
- 
 
- 
+ ###  Input Usage & Efficiency 
+
+
+* Potato which accounted for the largest share of pesticide used at 13.13% showed a strong positive response to pesticide application, with higher pesticide use correlating with 
+  significantly higher yields. 
+* Sweet potato and cassava contributing 10.89% and 8.62% respectively also benefited, but their total yields remained moderate, suggesting limited productivity despite pesticide 
+  investment. 
+
+* Low Responsiveness in Cereals Despite High Pesticide Use. Cereal crops like Wheat, Maize, Sorghum and Rice putting up 13%, 12.9%, 10.6% and 11.95% respectively displayed little or no 
+  yield improvement with increased pesticide use. 
+  Despite receiving moderate to high pesticide applications, these crops delivered stagnant yield patterns. 
+
+* Overuse of pesticides and fertilizer in low-yield zones suggests input misallocation.  
+
+* But there is an untapped yield potential in Plantain eventhough it received the lowest pesticide input at just 0.40% and also recorded the lowest yield,
+  it Pesticides Efficiency is 13.4.
+
+> ![Input Usage Dashboard](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Input%20Usage%20Analysis%20Image.jpeg)  
+
+ &nbsp;
+
+***
 
 ### 🌎 Regional Analysis 
 
- 
 
-🌍 Top Yield Contributors Drive Global Output 
+* India contributes the highest to global yield 15%, primarily due to its strong performance in Cassava, followed by Potato and Sweet Potato. 
+  Brazil and Mexico contributing 7.7%% and 6.0% respectively also play key roles, with Brazil’s yield led by
+  Potato, and Mexico showing balanced yield across Potato, Sweet Potato and Cassava. 
+* Japan and Australia put up 5.7% and 5.0% respectively maintain strong productivity, especially in Potato and Sweet Potato. 
+  This suggest that countries in the Tropical and Temperate regions attain high productivity in crops. 
 
-India contributes the highest to global yield (≈38%), primarily due to its strong performance in Cassava, followed by Potato and Sweet Potato. 
+* Countries like Namibia, Sudan, Montenegro, Eritrea, and Botswana show consistently low yields across most crops. The least producing countries are mostly located in Africa 
+  due to limited mechanization, input access or climatic political instability. 
 
-Brazil and Mexico contributing 19% and 15% respectively also play key roles, with Brazil’s yield led by Potato, and Mexico showing balanced yield across Potato, Sweet Potato, and Cassava. 
-
-Japan and Australia put up 14% and 13% respectively maintain strong productivity, especially in Potato and Sweet Potato. 
-
-This suggest that countries in the Tropical and Temperate regions attain high productivity in crops. 
-
-Countries like Namibia, Sudan, Montenegro, Eritrea, and Botswana show consistently low yields across most crops. The least producing countries are mostly located in Africa 
-
-due to limited mechanization, input access or climatic political instability. 
-
- > ![Regional Dashboard](#)  
+ > ![Regional Dashboard](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Regional%20Analysis%20Image.jpeg)  
 
  
 
-### 💧 Input Usage & Efficiency Dashboard 
 
-> ![Input Usage Dashboard](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/Input%20Usage%20Analysis%20Image.jpeg)   
+### 🌿 Crop Recommendation 
 
-> Potato which accounted for the largest share of pesticide used at 13.13% showed a strong positive response to pesticide application, with higher pesticide use correlating with significantly higher yields. 
-Sweet potato and cassava contributing 10.89% and 8.62% respectively also benefited, but their total yields remained moderate, suggesting limited productivity despite pesticide investment. 
+Input Usage Optimization
+•	Invest in efficient pesticide use plans, especially for crops like Potato, which show high responsiveness to input.
+•	Reassess the cost-benefit of high-input cereal crops (e.g., Maize, Wheat, Rice) which show diminishing yield returns despite higher inputs.
+•	Reallocate inputs to high-potential crops like Plantain, which shows 13.4 Pesticide Efficiency despite low usage.
 
-Low Responsiveness in Cereals Despite High Pesticide Use. Cereal crops like Wheat, Maize, Sorghum and Rice putting up 13%, 12.9%, 10.6% and 11.95% respectively displayed little or no yield improvement with increased pesticide use. 
-Despite receiving moderate to high pesticide applications, these crops delivered stagnant yield patterns. 
+Climatic Responsive Planning
+•	 Develop heat-resistant crop varieties, as extreme temperatures sharply reduce yields.
+•	 Prioritize climate-smart agriculture training for regions facing warming trends or high variability region.
+•	In optimal rainfall zones, promote climate-adapted crops like Potato, Sweet Potato, and Cassava to maximize yield.
+•	Enhance flood mitigation strategies such as drainage systems and raised beds in flood-prone zones.
+•	Adjust planting schedules and crop calendars to align with peak rainfall periods ensuring better water availability during critical growth stages.
 
-Overuse of pesticides and fertilizer in low-yield zones suggests input misallocation.  
+Regional Strategy
+•	For low-performing countries such as Namibia, Sudan, Eritrea should be supported with mechanization,
+  prioritize capacity building and agricultural support programs to improve yield outcomes.
+•	Focus on high-performing countries like India, Brazil, Mexico, Japan, and Australia for crop expansion and targeted investments
 
-But there is an untapped yield potential in Plantain since it received the lowest pesticide input at just 0.40% and also recorded the lowest yield. 
 
- 
-
-### 🌿 Crop Recommendation & Climate Planning Dashboard 
 
 > ![Crop Recommendation Dashboard](#)   
 
-> - **Optimal Rainfall Zones:** Promote Potato, Sweet Potato, and Cassava. 
 
-> - **Drought/Heat-Stressed Areas:** Focus on Sweet Potato & Cassava with mulching & drip systems. 
+Conclusion
+* Root & tuber crops such as Potato, Sweet Potato, Cassava are the most productive and climate-resilient, making them key for food security.
 
-> - **Flood Zones:** Promote rice and flood-tolerant varieties of Potato and Sweet Potato. 
+* Cereals Maize, Wheat, Rice need optimized input usage since high pesticide application does not proportionally increase yield.
 
-> - **General:** Recommend heat-tolerant crop breeding and calendar shifts for temperature-exposed areas. 
+* Climate extremes such as drought, floods, heat are major risks, but smart water management and crop selection can mitigate losses.
 
+* Regional disparities exist with tropical/temperate zones outperforming arid regions, highlighting the need for tailored agricultural policies
  
 
 # Data Analysis

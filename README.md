@@ -189,8 +189,8 @@ Regional Strategy
 •	Focus on high-performing countries like India, Brazil, Mexico, Japan, and Australia for crop expansion and targeted investments
 
 
-
-> ![Crop Recommendation Dashboard](#)   
+  
+ &nbsp;
 
 
 Conclusion

@@ -12,7 +12,7 @@ The ultimate goal is to provide data-driven recommendations that support climate
 1) Investigates how crop yields have evolved over time across
 2) Identifying Yield Performance Across Regions
 3) Assessing the Impact of Pesticide Use on Crop Productivity
-4) How climate factors—like rainfall levels and temperature—impact crop suitability and yield
+4) How climate factors like rainfall levels and temperature impact crop suitability and yield
 
 
 &nbsp;

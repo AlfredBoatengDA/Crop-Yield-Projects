@@ -2,6 +2,23 @@
 ![](https://github.com/AlfredBoatengDA/Agriculture-Projects/blob/main/crop%20yield%20analysis.jpg)
 
 
+
+
+## Table of Content
+
+- [Project Overview](Project-Overview)
+- [Data Structure Overview](Data-Structure-Overview)
+- [Executive Summary](Executive-Summary)
+- [Insights Deep Dive](Insights-Deep-Dive)
+- [Recommendation](Recommendations)
+- [Conclusion](Conclusion)
+
+
+&nbsp;
+
+
+
+
 # Project Overview
 This data analysis project aims to uncover key insights into crop production, environmental impact, and input efficiency across different regions and climatic conditions.
 By analyzing historical agricultural data from 1993 to 2013, the project seeks to identify yield trends, regional performance,
@@ -34,8 +51,9 @@ The ultimate goal is to provide data-driven recommendations that support climate
 
 
 #### Data Source
-- Kaggle
-- CSV File
+* The dataset used in this project is titled "Yield_df" and is provided in CSV format. 
+* Data was sourced from Kaggle
+
 
 
 #### Tools
@@ -157,7 +175,7 @@ These crops have demonstrated not only high and consistent yie
 
 ***
 
-### 🌎 Regional Analysis 
+###  Regional Analysis 
 
 
 * India contributes the highest to global yield 15%, primarily due to its strong performance in Cassava, followed by Potato and Sweet Potato. 
@@ -174,7 +192,7 @@ These crops have demonstrated not only high and consistent yie
  
 
 
-### 🌿 Crop Recommendation 
+###  Crop Recommendation 
 
 Input Usage Optimization
 •	Invest in efficient pesticide use plans, especially for crops like Potato, which show high responsiveness to input.
@@ -207,11 +225,6 @@ Conclusion
 
 * Regional disparities exist with tropical/temperate zones outperforming arid regions, highlighting the need for tailored agricultural policies
  
-
-# Data Analysis
-Include some interesting code/features worked wih:
-```SQL
-
 
 
 
